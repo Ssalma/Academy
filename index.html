@@ -10,32 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="hero">
-      <div class="nav"></div>
-      <div class="background-image">
-        <div class="grey-nav"></div>
-        <div class="hero-content">
-          <div class="text-wrapper">
-            <p class="hero-text">
-              <span class="hero-span">We provide </span> <br />
-              industry focused services for <br />
-              public & private clients
-            </p>
-          </div>
-          <div class="form-wrapper">
-            <div class="form-content">
-              <p class="form-heading">Login</p>
-              <input type="text" name="username" id="" placeholder="Username" />
-              <input type="text" name="password" id="" placeholder="Password" />
-              <p class="forgot-password">Forget password?</p>
-              <button class="login-btn">LOGIN</button>
-              <p class="signup">Dont have an account? <span class="signup-span">Signup</span> </p>
-            </div>
+      <div class="content">
+        <div class="nav">
+          <img class="logo" src="./assets/logo.png" alt="" />
+          <label class="ham-label" for="hamburger"><img src="./assets/hamburger.svg" alt=""></label>
+          
+          <input type="checkbox" id="hamburger">
+          <div class="nav-list">
+            <label class="close-label" for="hamburger">Close <img src="./assets/close.svg" alt=""></label>
+            <ul>
+              <li>Home</li>
+              <li>For Fans</li>
+              <li>For influencers</li>
+              <li>Features</li>
+              <li>FAQ’s</li>
+            </ul>
           </div>
         </div>
       </div>
